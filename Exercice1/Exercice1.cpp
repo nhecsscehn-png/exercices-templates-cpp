@@ -15,7 +15,7 @@ int main(){
 
     std::cout<<maximum(3.8,7.7)<<std::endl;
 
-    std::cout<<maximum('A','z')<<std::endl;
+    std::cout<<maximum('A','Z')<<std::endl;
 
     return 0;
 }
