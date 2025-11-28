@@ -21,5 +21,18 @@ int main(){
     std::cout<<"a vaut : "<<a<< std::endl;
     std::cout<<"b vaut : "<<b<< std::endl;
 
+    double c, d;
+    c=14;
+    d=56;
+
+    std::cout<<"c vaut : "<<c<< std::endl;
+    std::cout<<"d vaut : "<<d<< std::endl;
+
+    echanger(c,d);
+    std::cout<<"Resultat apres echange"<<std::endl;
+
+    std::cout<<"c vaut : "<<c<< std::endl;
+    std::cout<<"d vaut : "<<d<< std::endl;
+
     return 0;
 }
